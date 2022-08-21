@@ -8,7 +8,7 @@ const app = express();
 
 //Connect to Mongo db URI
 const dbName = 'BlogsProject'
-const dbURI = `mongodb+srv://trial:test12@cluster0.ja6wg.mongodb.net/${dbName}?retryWrites=true&w=majority`
+const dbURI = `mongodb+srv://ronaldfer747:Color742@cluster0.oa76cuq.mongodb.net/${dbName}?retryWrites=true&w=majority`
 
 //connecting to Mongo DB, .connect returns a promise hence we use .then and .catch
 mongoose.connect(dbURI,{ useNewUrlParser:true,useUnifiedTopology:true})
