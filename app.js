@@ -15,7 +15,7 @@ mongoose.connect(dbURI,{ useNewUrlParser:true,useUnifiedTopology:true})
     // Listening at port 3000 only when DB is connected
     .then((result) =>{
         app.listen(3000);
-        console.log("Connected to DB")
+        console.log("Connected to Mongo DB")
     })
     .catch(err => console.log(err))
 
