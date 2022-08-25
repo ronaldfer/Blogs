@@ -1,3 +1,4 @@
+//Model - RFS 8/23/2022
 const mongoose = require('mongoose')
 const Schema = mongoose.Schema;
 
