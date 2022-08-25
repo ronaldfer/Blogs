@@ -1,3 +1,4 @@
+// Routes-RFS
 const express = require('express')
 //controller
 const {blog_index,blog_create_get, blog_create_post, blog_details, blog_patch, blog_delete} = require('../controllers/blogController')
